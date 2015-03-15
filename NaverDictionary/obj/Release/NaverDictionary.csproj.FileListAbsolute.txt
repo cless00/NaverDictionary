@@ -41,3 +41,16 @@ D:\Dev\back\WindowsFormsApplication1\NaverDictionary\obj\Release\Naver Dictionar
 D:\Dev\back\NaverDictionary\NaverDictionary\bin\Release\Naver Dictionary.exe.config
 D:\Dev\back\NaverDictionary\NaverDictionary\obj\Release\Naver Dictionary.exe
 D:\Dev\back\NaverDictionary\NaverDictionary\obj\Release\Naver Dictionary.pdb
+D:\GitHub\NaverDictionary\NaverDictionary\bin\Release\Naver Dictionary.exe.config
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\Naver Dictionary.exe
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\Naver Dictionary.pdb
+D:\GitHub\NaverDictionary\NaverDictionary\bin\Release\Naver Dictionary.exe.manifest
+D:\GitHub\NaverDictionary\NaverDictionary\bin\Release\Naver Dictionary.application
+D:\GitHub\NaverDictionary\NaverDictionary\bin\Release\Naver Dictionary.exe
+D:\GitHub\NaverDictionary\NaverDictionary\bin\Release\Naver Dictionary.pdb
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\NaverDictionary.csprojResolveAssemblyReference.cache
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\NaverDictionary.NaverDic.resources
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\NaverDictionary.Properties.Resources.resources
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\NaverDictionary.csproj.GenerateResource.Cache
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\Naver Dictionary.exe.manifest
+D:\GitHub\NaverDictionary\NaverDictionary\obj\Release\Naver Dictionary.application

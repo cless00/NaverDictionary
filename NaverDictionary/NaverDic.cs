@@ -24,10 +24,13 @@ namespace NaverDictionary
 			notifyIcon1.ContextMenuStrip = contextMenuStrip1;
 			notifyIcon1.Icon = Properties.Resources.icon1;
 
-			RegisterHotKey((int)this.Handle, 0, 0x2, (int)Keys.Space); //(여기로가져와, 니 ID는 0이야, 조합키안써, F5눌러지면)
-			// 0x1은 알트, 0x2는 콘트롤, 0x3은 쉬프트
+			RegisterHotKey((int)this.Handle, 0, 0x0002 | 0x0004, (int)Keys.Space); //(여기로가져와, 니 ID는 0이야, 조합키안써, 눌러지면)
+                                                                                   // ALT = 0x0001,
+                                                                                   // CTRL = 0x0002,
+                                                                                   // SHIFT = 0x0004,
+                                                                                   // WIN = 0x0008,
 
-			webBrowser1.ScriptErrorsSuppressed = true;
+            webBrowser1.ScriptErrorsSuppressed = true;
 			LoadWeb(1);
 		}
 

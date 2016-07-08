@@ -166,7 +166,7 @@ namespace NaverDictionary
 					HideDic();
 					break;
 				case Keys.F1:
-					MessageBox.Show("Ctrl + Space  :  Show / Hide\r\n" +
+					MessageBox.Show("Ctrl + Shift + Space  :  Show / Hide\r\n" +
 									"F1   :  Shortcuts\r\n" +
 									"F2   :  Naver Dictionary\r\n" +
 									"F3   :  Google Translator");

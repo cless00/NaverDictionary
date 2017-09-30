@@ -24,7 +24,7 @@ namespace NaverDictionary
 			notifyIcon1.ContextMenuStrip = contextMenuStrip1;
 			notifyIcon1.Icon = Properties.Resources.icon1;
 
-			RegisterHotKey((int)this.Handle, 0, 0x0002 | 0x0004, (int)Keys.Space); //(여기로가져와, 니 ID는 0이야, 조합키안써, 눌러지면)
+			RegisterHotKey((int)this.Handle, 0, 0x0001 | 0x0002 | 0x0004, (int)Keys.Space); //(여기로가져와, 니 ID는 0이야, 조합키안써, 눌러지면)
                                                                                    // ALT = 0x0001,
                                                                                    // CTRL = 0x0002,
                                                                                    // SHIFT = 0x0004,
@@ -92,8 +92,7 @@ namespace NaverDictionary
 				if (Form.ActiveForm == null/*isActived == false*/)
 				{
 					ShowDic();
-				}
-				else
+				} else
 				{
 					HideDic();
 				}
@@ -166,7 +165,7 @@ namespace NaverDictionary
 					HideDic();
 					break;
 				case Keys.F1:
-					MessageBox.Show("Ctrl + Shift + Space  :  Show / Hide\r\n" +
+					MessageBox.Show("Ctrl + Alt + Shift + Space  :  Show / Hide\r\n" +
 									"F1   :  Shortcuts\r\n" +
 									"F2   :  Naver Dictionary\r\n" +
 									"F3   :  Google Translator");
